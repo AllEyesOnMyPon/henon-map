@@ -16,7 +16,7 @@ for counter in range(1, n + 1):
     data.append((counter, xn, yn))
     plt.plot(data[counter][1], data[counter][2], 'o', color='black', alpha= .2, markersize= .1)
 
-plt.grid(True, linestyle='--', linewidth=0.5, alpha=0.6)  # Dodanie lekkiej siatki
+plt.grid(True, linestyle='--', linewidth=0.5, alpha=0.6)
 plt.xticks(np.arange(-1.5, 1.5, 0.2))  # Zakres X od -1.5 do 1.5, co 0.5
 plt.yticks(np.arange(-0.5, 0.5, 0.1))  # Zakres Y od -0.5 do 0.5, co 0.2
 
